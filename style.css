@@ -1,0 +1,140 @@
+/* First External CSS Stylesheet */
+
+/* Styling for HTML elements */
+
+.navbar{
+  padding: 0;
+  background-color: white
+}
+
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 28px;
+  background-color: rgb(0, 204, 255);
+  color: white;
+  text-align: center;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+div.col-lg-8 {
+  background-color: white;
+  margin-top: 40px; 
+} 
+
+div.col-lg-4 {
+  background-color: white;
+  margin-top: 40px; 
+}
+
+/* div.col-md-8 {
+  background-color: white; 
+  margin-top: 40px;
+  
+} */
+/* 
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+} 
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: lightblue;
+  }
+}
+
+h2 {
+  background-color: white;
+  margin: 40px;
+  color:rgb(0, 204, 255);
+}
+
+h3 {
+  text-align: center;
+  color:rgb(0, 204, 255);
+  font-size: 20px;
+}
+
+
+h4 {
+  
+  font-size: 20px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  background: #efeee7;
+}
+
+
+/* Selecting elements by class */
+
+/* 
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+
+/* Selecting elements by ID */
+
+#navbarDropdown{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+
+#summary-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+
+.visual {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-image-width: 10px;
+  border-style: solid;
+  border-color: black;
+} 
+
+#ind-image {
+  width: 400px;
+  height: 400px;
+
+}
+
+
+#visual {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-image-width: 10px;
+} 
+
+footer{
+  text-align: center;
+  background-color: darkgray; 
+  color: white;
+}
